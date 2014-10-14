@@ -81,6 +81,8 @@ You can either use on the following users already provided in the database:
 
 Team members
 ------------
+Commercial : 
+- **Commercial** (commercial@theodo.fr)
 
 Developer team:
   - **Dev 1** (dev1@theodo.fr)
