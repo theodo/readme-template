@@ -14,6 +14,13 @@ The following environments are available for this project:
 
 **Preprod** : http://preprod.project.com/index
   - ***IP*** : 193.193.193.193
+  - ***Associated Git branch*** : master
+  - ***HTTP login*** : http_login / http_password
+  - ***User login*** : username / password
+  - ***Admin login*** : admin / adminpwd
+
+**Staging** : http://staging.project.com/index
+  - ***IP*** : 193.193.193.194
   - ***Associated Git branch*** : staging
   - ***HTTP login*** : http_login / http_password
   - ***User login*** : username / password
@@ -25,8 +32,10 @@ First, the git workflow for deployment is the following:
   - Create a new branch from **master**
   - Commit your modifications on it
   - Merge your custom branch on **staging**
-  - Deploy on the **preprod** environment
+  - Deploy on the **staging** environment
   - Upon validation, merge **staging** onto **master**
+  - Deploy on the **preprod** environment
+  - Run tests and check everything is good
   - Deploy on the **prod** environment
 
 To deploy onto a particular environment, use the following command:
