@@ -29,14 +29,16 @@ The following environments are available for this project:
 How to deploy
 -------------
 First, the git workflow for deployment is the following:
-  - Create a new branch from **master**
+  - Create a new branch **feature/xxx** from **master**
   - Commit your modifications on it
   - Merge your custom branch on **staging**
   - Deploy on the **staging** environment
-  - Upon validation, merge **staging** onto **master**
+  - Upon validation, merge **feature/xxx** onto **master**
   - Deploy on the **preprod** environment
   - Run tests and check everything is good
   - Deploy on the **prod** environment
+
+**NOTE**: Do not merge **staging** on **master** otherwise you will merge not validated features and deploy them on the **prod** environment! 
 
 To deploy onto a particular environment, use the following command:
 ```
