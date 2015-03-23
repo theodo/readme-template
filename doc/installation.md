@@ -12,6 +12,16 @@ Before anything, you need the following software installed on your machine:
   * [Capifony](http://capifony.org/)
   * ...
 
+Secrets
+-------
+
+Stored in myproject-secrets.kdbx (Keepass 2.x)
+
+Master password owners:
+ * APP
+ * Dev1
+ * Archi1
+ * HostingGuy
 
 How to get SSH/VPN access
 ---------------------
