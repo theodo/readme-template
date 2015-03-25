@@ -16,10 +16,11 @@ Documentation index
 
 Team members
 ------------
-Sales representative :
+
+Sales representative:
 - **Commercial** (commercial@theodo.fr)
 
-Developer team:
+Developer team (see [contributors](../../graphs/contributors)):
   - **Dev 1** (dev1@theodo.fr)
   - **Dev 2** (dev2@theodo.fr)
   - **Dev 3** (dev3@theodo.fr)
