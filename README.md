@@ -16,7 +16,8 @@ Documentation index
 
 Team members
 ------------
-Sales representative :
+
+Sales representative:
 - **Commercial** (commercial@theodo.fr)
 
 Developer team:
@@ -29,3 +30,8 @@ Scrum Master:
 
 Product Owner:
   - **Product Owner** (product.owner@acme.com)
+
+If you want to know which developers commited to the project and when are their last commits, use this helper in your project (Linux):
+```bash
+git log --format="%aN" | perl -ne 'print unless $seen{$_}++' | xargs -i -d '\n' git log -1 --author={} --format="%aN (last commit %cd)" --date=short | cat
+```
