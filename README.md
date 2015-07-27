@@ -12,7 +12,7 @@ Documentation index
   * [Database](doc/data.md)
   * [Provisioning](doc/provisioning.md)
   * [Git Workflow](doc/git-workflow.md)
-  * [Deployment](doc/deploy.md)
+  * [Environments](doc/environments.md)
 
 Team members
 ------------

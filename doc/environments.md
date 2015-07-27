@@ -1,8 +1,6 @@
-Deployment
-==========
+Environments
+============
 
-Project environments
---------------------
 The following environments are available for this project:
 
 **Prod** : http://prod.project.com/index
