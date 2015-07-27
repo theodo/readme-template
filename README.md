@@ -8,7 +8,7 @@ Documentation index
 -------------------
 
   * [Installation](doc/installation.md)
-  * [Project model](doc/model.md)
+  * [Data model](doc/model.md)
   * [Database](doc/data.md)
   * [Provisioning](doc/provisioning.md)
   * [Git Workflow](doc/git-workflow.md)
